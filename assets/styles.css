@@ -6,7 +6,7 @@
     --fift-color:#C0C0C0;
     --six-color:#D3D3D3;
     --seven-color:#9d7e63;
-    --primary-font:"Roboto", sans-serif;
+    --primary-font:'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
   }
 
 p {
@@ -210,6 +210,7 @@ header {
 .bg-color02 {
     background-color: var(--secondary-color);
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -469,7 +470,13 @@ background-color:var(--fift-color);
       width: auto;
       padding: 0;
     }
-
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin: 5rem;
+      /*.90rem default*/
+    }
     .logo {
       position: absolute;
       left: 0;
